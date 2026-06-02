@@ -15,6 +15,7 @@ terraform {
 }
 
 provider "azurerm" {
+  use_oidc = true
   features {
 
   }
@@ -23,5 +24,5 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "test_rg" {
   name     = "testhowworks"
-  location = "Poland Central"
+  location = "East Us"
 }
