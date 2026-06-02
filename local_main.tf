@@ -17,7 +17,7 @@
 
 # resource "azurerm_resource_group" "name" {
 #   name     = "tfstate"
-#   location = "eastus"
+#   location = "East US"
 # }
 
 # resource "azurerm_storage_account" "name" {

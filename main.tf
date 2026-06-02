@@ -23,6 +23,6 @@ provider "azurerm" {
 
 
 resource "azurerm_resource_group" "test_rg" {
-  name     = "tfstate"
-  location = "eastus"
+  name     = "test_rg"
+  location = "East US"
 }
